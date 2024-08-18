@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Section1 */
+
+.continer {
+    display: flex;
+}
+
+.continer .div-h1 h1 {
+    color: blueviolet;
+    margin-left: 30px;
+}
+
+.continer .div-a nav a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.continer .div-img img {
+    width: 30px;
+    border-radius: 100%;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgb(212, 198, 198);
+}
+
+.continer .div-img{
+    margin-right: 50px;
+}
+
+.continer .div-h1 {
+    flex-grow: 5;
+    padding-right: 20px;
+}
+
+.continer .div-a  {
+    padding: 30px
+    
+}
+.continer a:hover{
+    color: rgb(255, 248, 248);
+    background-color: rgb(39, 26, 26) ;
+    border-radius: 20px;
+}
+
+.continer .div-img {
+    padding: 10px;
+    text-align: center;
+}
+/* Section2 */
+
+.continer2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continer2 .div-SC {
+    width: 200px;
+}
+
+.continer2 .div-SC #p1 {
+    font-size: xx-large;
+    color: blueviolet;
+}
+
+.continer2 .div-Sl {
+    width: 400px;
+    padding-left: 50px;
+    padding-top: 40px;
+    border-left: 1px solid rgb(11, 11, 236);
+}
+
+ /* Section3 */
+
+.continer3 {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.continer3 .h1-our {
+    color: blueviolet
+}
+/* Section4 */
+
+.continer4 {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.continer4 
+.div-continer4 {
+    text-align: center;
+    border: 1px solid rgb(233, 233, 238);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgb(231, 216, 216);
+}
+
+.p1 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/*Section5*/
+
+
+.continer5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 100px;
+
+}
+
+.continer5 .div-continer5 {
+    width: 50%;
+
+}
+
+
+.continer5 .div-continer5 .h1-continer5 {
+    color: rgb(68, 68, 175);
+}
+
+/* Section6 */
+.h1-in-continer6{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.continer6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.continer6 .div-cotiner6 {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgb(231, 216, 216);
+    position: relative;
+}
+.continer6 .h3-continer6{
+    color: blueviolet;
+}
+span{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    color: rgb(109, 107, 103);
+}
